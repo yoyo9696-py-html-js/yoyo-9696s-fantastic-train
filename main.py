@@ -1,7 +1,4 @@
 
-#------links: https://pypi.org/project/chatbotAI/ ------
-
-#------https://pypi.org/project/Speaking-character-ai/ -----
 from ai_character_sdk import Character
 
 # Create a character
