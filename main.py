@@ -9,7 +9,7 @@ hero = Character(
 )
 
 # Use the character
-response = hero.think("I see a goblin approaching")
+response = hero.think("I see a VIRUS  approaching")
 print(response.content)
 
 # Remember experiences
@@ -18,3 +18,7 @@ hero.remember("The VIRUS was actually friendly", importance=100.0)
 # Learn from outcomes
 hero.learn(outcome="Made a new ally", success=True, reward=100.0)
 hero.learn(outcome="Made a PYTHON CODE WITH TURTLE ", success=True, reward=100.0)
+
+if __name__ == "__main__" 
+hero.remember()
+hero.learn()
